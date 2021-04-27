@@ -62,9 +62,10 @@ ul{
 
 .nav .toggle-collapse{
     position: absolute;
-    top: 0;
+    top: 0%;
     margin: 90%;
     cursor: pointer;
+    display: none;
 }
 
 .nav .toggle-collapse .toggle-icons {
@@ -131,6 +132,9 @@ color: #a1c4cf;
     @media only screen and (max-width: 750px){
         .nav .nav-menu, .nav .nav-items{
             flex-direction: column;
+        }
+        .nav .toggle-collapse {
+            display: initial;
         }
     }
 /* responsive view port 750px less than or equal to this size */
