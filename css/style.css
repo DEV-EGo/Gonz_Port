@@ -60,22 +60,34 @@ ul{
     justify-content: space-between;
 }
 
-.nav .toggle-collpase{
+.nav .toggle-collapse{
     position: absolute;
     top: 0;
-    margin: 100%;
+    margin: 90%;
     cursor: pointer;
 }
 
+.nav .toggle-collapse .toggle-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+
+}
+
+.nav .toggle-collapse .toggle-icons i {
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
 .nav .nav-items{
-    list-style-type:none;
+    /* list-style-type:none; */
     display: flex;
     margin: 0;
 
 }
 
 .nav .nav-items .nav-link{
-    padding: 1.6rem;
+    padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
     font-family: var(--Josefin);
