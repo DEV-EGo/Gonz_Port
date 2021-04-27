@@ -1,5 +1,17 @@
 @font-face {
-    font-family: 'zen dots', cursive ,
-     'Josefin Sans', sans-serif, 'Roboto Mono', monospace;
-
+    font-family:'Roboto Mono', monospace;
+src: url(../font/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
 }
+
+/* font - family */
+@font-face {
+    font-family:'Josefin Sans';
+src: url(../font/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+
+/* font - family */
+@font-face {
+    font-family: 'Zen Dots', cursive;;
+src: url(../font/Zen_Dots/ZenDots-Regular.ttf);
+}
+
