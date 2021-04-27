@@ -52,12 +52,19 @@ ul{
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 40vh;
+    min-height: 10vh;
     overflow: hidden;
 }
 
 .nav .nav-menu{
     justify-content: space-between;
+}
+
+.nav .toggle-collpase{
+    position: absolute;
+    top: 0;
+    margin: 100%;
+    cursor: pointer;
 }
 
 .nav .nav-items{
@@ -110,8 +117,8 @@ color: #a1c4cf;
 
 /* responsive view port 750px less than or equal to this size */
     @media only screen and (max-width: 750px){
-        .nav{
-            background: black;
+        .nav .nav-menu, .nav .nav-items{
+            flex-direction: column;
         }
     }
 /* responsive view port 750px less than or equal to this size */
