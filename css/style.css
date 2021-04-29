@@ -46,6 +46,16 @@ ul{
 }
 /* ---x----Global Class-----x---- */
 
+/* --------Main Content---------- */
+
+/* --------Site Title---------- */
+main .site-title {
+    background: url('../assets/cyber_background.jpeg');
+}
+/* --------Site Title---------- */
+
+/* --------Main Content---------- */
+
 
 /* --------navbar---------- */
 .nav{
