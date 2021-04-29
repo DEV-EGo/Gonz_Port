@@ -99,7 +99,17 @@ main .site-title .btn:hover{
     background: transparent;
     border: 1px solid var(--white);
 }
-/* --------Site Title---------- */
+/* ----x----Site Title------x---- */
+
+/* --------Blog Carousel---------- */
+main .blog{
+    background:url('../assets/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+/* ---x-----Blog Carousel------x---- */
 
 /* --------Main Content---------- */
 
