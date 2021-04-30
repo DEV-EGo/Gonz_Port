@@ -71,6 +71,10 @@ button.btn{
 span{
     font-family: var(--Zen);
 }
+
+.container {
+    margin: 0 5vw;
+}
 /* ---x----Global Class-----x---- */
 
 /* --------Main Content---------- */
@@ -112,6 +116,7 @@ main .blog{
     background-position: right;
     height: 100vh;
     width: 100%;
+    background-size: 65%;
 }
 
 main .blog .blog-post {
@@ -143,7 +148,6 @@ main .blog-content span{
 }
 /* ---x-----Blog Carousel------x---- */
 
-/* --------Main Content---------- */
 
 
 /* --------navbar---------- */
