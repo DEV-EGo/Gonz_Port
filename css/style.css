@@ -146,6 +146,25 @@ main .blog-content .btn-blog{
 main .blog-content span{
     display: block;
 }
+
+section .container .owl-nav {
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav.owl-prev.owl-nav-prev,
+.owl-nav.owl-next.owl-nav-next {
+    color: var(--text-gray);
+    background: transparent;
+    font-size: 2rem;
+}
+
+.owl-theme .owl-nav [class *='owl-']:hover{
+    background: transparent;
+    color: var(--text-gray);
+}
 /* ---x-----Blog Carousel------x---- */
 
 
