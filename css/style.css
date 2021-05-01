@@ -203,17 +203,19 @@ main .site-content .post-content > .post-image .post-info{
     border-radius: 3rem;
 }
 
-main .side-content > .post-image > div{
+main .side-content .post-content > .post-image > div{
     overflow: hidden;
 }
 
 main .site-content .post-content > .post-image .img{
     width: 100%;
+    transition: all 1s ease;
 }
 
 main .site-content .post-content > .post-image .img:hover{
     transform: scale(1.3); /* image gets bigger when hovering over it with pointer/*/
 }
+
 /* ---x-----side content------x---- */
 
 /* --------navbar---------- */
