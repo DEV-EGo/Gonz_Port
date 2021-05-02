@@ -80,6 +80,11 @@ span{
     color: var(--text-gray);
 }
 
+p{
+    font-family: var(--Zen);
+    color: var(--text-light);
+}
+
 /* ---x----Global Class-----x---- */
 
 /* --------Main Content---------- */
@@ -177,7 +182,7 @@ section .container .owl-nav {
 }
 /* ---x-----Blog Carousel------x---- */
 
-/* --------side content---------- */
+/* --------site content---------- */
 
 main .site-content {
     display: grid;
@@ -186,7 +191,6 @@ main .site-content {
 
 main .post-content{
     width: 100%;
-    margin-bottom: 5rem;
 }
 
 main .site-content .post-content > .post-image, .post-title{
@@ -223,9 +227,37 @@ main .site-content .post-content > .post-image .post-info span {
 main .post-content .post-title a{
     font-family: var(--Roboto);
     font-size: 1.5rem;
-    
 }
-/* ---x-----side content------x---- */
+
+.site-content .post-content .post-title .post-btn{
+    border-radius: 0;
+    padding: .7rem 1.5rem;
+    background: skyblue;
+}
+
+.site-content .pagination{
+    justify-content: center;
+    color: var(--text-gray);
+    margin: 4rem 0;
+}
+
+.site-content .pagination a{
+    padding: .6rem .9rem;
+    border-radius: 2rem;
+    margin: 0 .3rem;
+    font-family: var(--Zen);
+}
+
+.site-content .pagination .pages{
+    background-color: var(--text-gray);
+    color: var(--white);
+}
+/* ---x-----site content------x---- */
+
+
+
+
+
 
 /* --------navbar---------- */
 .nav{
