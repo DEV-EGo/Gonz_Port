@@ -203,7 +203,7 @@ main .site-content .post-content > .post-image .post-info{
     border-radius: 3rem;
 }
 
-main .side-content .post-content > .post-image > div{
+main .site-content .post-content > .post-image > div{
     overflow: hidden;
 }
 
@@ -216,6 +216,15 @@ main .site-content .post-content > .post-image .img:hover{
     transform: scale(1.3); /* image gets bigger when hovering over it with pointer/*/
 }
 
+main .site-content .post-content > .post-image .post-info span {
+    margin: 0.5rem;
+}
+
+main .post-content .post-title a{
+    font-family: var(--Roboto);
+    font-size: 1.5rem;
+    
+}
 /* ---x-----side content------x---- */
 
 /* --------navbar---------- */
