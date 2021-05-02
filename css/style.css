@@ -91,7 +91,7 @@ p{
 
 /* --------Site Title---------- */
 main .site-title {
-    background: url('../assets/minimalism-1619733892159-3933.jpg');
+    background: url('https://media.giphy.com/media/f74WQIhbzBKAusL2v1/giphy.gif');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -261,7 +261,7 @@ main .post-content .post-title a{
 }
 
 .site-content > .sidebar .category-list .list-items{
-    background: var(--sky);
+    background: #c3e8ffb5;
     padding: .4rem 1rem;
     margin: .8rem 0;
     border-radius: 3rem;
@@ -269,8 +269,29 @@ main .post-content .post-title a{
     display: flex;
     justify-content: space-between;
 }
+.site-content > .sidebar .category-list .list-items a{
+    color: black;
+}
 
+.site-content .sidebar .popular-post .post-content{
+    padding: 1rem 0;
+}
 
+.site-content .sidebar .popular-post h2{
+    padding-top: 8rem;
+}
+
+.side-content .sidebar .popular-post .post-info {
+    padding: .4rem .1rem!important;
+    bottom: 0rem!important;
+    left: 1.5rem!important;
+    border-radius: 0rem!important;
+    background: white!important;
+}
+
+.side-content .sidebar .popular-post .post-title a{
+    font-size: 1rem;
+}
 /* -----*---side- bar----*----- */
 
 /* --------navbar---------- */
@@ -361,7 +382,7 @@ color: #a1c4cf;
 
 
 /* responsive view port 750px less than or equal to this size */
-    @media only screen and (max-width: 750px){
+    @media only screen and (max-width: 900px){
         .nav .nav-menu, .nav .nav-items{
             flex-direction: column;
         }
