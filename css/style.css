@@ -93,7 +93,8 @@ p{
 main .site-title {
     background: url('https://media.giphy.com/media/f74WQIhbzBKAusL2v1/giphy.gif');
     background-size: cover;
-    height: 110vh;
+    height: 60vh;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -382,7 +383,7 @@ color: #a1c4cf;
 
 
 /* responsive view port 750px less than or equal to this size */
-    @media only screen and (max-width: 900px){
+    @media only screen and (max-width: 1200px){
         .nav .nav-menu, .nav .nav-items{
             flex-direction: column;
         }
