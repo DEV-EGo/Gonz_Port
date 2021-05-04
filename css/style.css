@@ -411,8 +411,52 @@ main .post-content .post-title a{
 color: #a1c4cf;
 
 }
-/* 
-----x----navbar----x---- */
+/* ----x----navbar----x---- */
+
+/*--------Footer---------- */
+
+footer.footer{
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+
+footer.footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* making 4 sections*/
+}
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0; /* specify initial width of flexible items*/
+    padding: 3rem .9rem;
+}
+
+footer.footer .container h2{
+    color: var(--white);
+}
+
+footer.footer .news-letter .form-element{
+    background: black;
+    display: inline-block;
+}
+
+footer.footer .news-letter .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Josefin);
+    font-size: 1rem;
+    width: 70%;
+}
+
+footer.footer .news-letter .form-element span{
+    background: var(--babyBlue);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+/*-----*---Footer-----*--- */
 
 
 /* responsive view port 750px less than or equal to this size */
