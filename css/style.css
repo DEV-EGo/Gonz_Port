@@ -93,7 +93,7 @@ p{
 main .site-title {
     background: url('https://media.giphy.com/media/f74WQIhbzBKAusL2v1/giphy.gif');
     background-size: cover;
-    height: 60vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -295,7 +295,7 @@ main .post-content .post-title a{
 }
 
 .site-content .sidebar .newsletter{
-    padding-top: 3rem;
+    padding-top: 10rem;
 }
 .site-content .sidebar .newsletter .form-element{
     padding: .5rem 2rem;
@@ -314,6 +314,17 @@ main .post-content .post-title a{
     padding: .8rem 32%;
     margin: 1rem 0;
     background: var(--babyBlue);
+}
+
+.site-content .sidebar .popular-tags {
+    padding: 4rem 0;
+}
+
+.site-content .sidebar .popular-tags .tags .tag{
+    background: var(--babyBlue);
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
 }
 /* -----*---side- bar----*----- */
 
