@@ -41,5 +41,8 @@ $(".move-up span").click(function(){
         scrollTop:0
     }, 3000);
 })
+
+// animation on scroll
+AOS.init();
     
 });
