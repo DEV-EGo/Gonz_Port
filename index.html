@@ -80,11 +80,11 @@
         <div class="site-background" data-aos="fade-up" data-aos-delay="100">
           <h3>Edwin Gonzalez</h3>
           <h1>Full Stack Developer </h1>
-          <button class="btn">Github</button>
+          <!-- <button class="btn">Github</button> -->
         </div>
       </section>
 
-      <!--------- Blog Carousel --------->
+      <!--------- Blog Carousel (projects) --------->
       <section>
 
         <div class="blog">
@@ -106,7 +106,8 @@
                 <img src="./assets/Blog-post/post-3.jpg" alt="post-1" />
                 <div class="blog-title">
                   <h3>Weather App</h3>
-                  <button class="btn btn-blog">Start</button>
+                  
+                  <button class="btn btn-blog"><a href="http://will-it-rain.surge.sh/">Visit</button></a>
                   <span>2 minutes</span>
                 </div>
               </div>
@@ -115,7 +116,8 @@
                 <img src="./assets/Blog-post/post-2.jpg" alt="post-1" />
                 <div class="blog-title">
                   <h3>Omni-Foods</h3>
-                  <button class="btn btn-blog">Start</button>
+                  <button class="btn btn-blog" > <a href="http://used-government.surge.sh/">visit</a>
+                  </button>
                   <span>2 minutes</span>
                 </div>
               </div>
@@ -156,6 +158,7 @@
         <div class="site-content">
 
           <div class="posts">
+
             <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
 
               <div class="post-image">
@@ -334,6 +337,8 @@
 
           </div>
 
+          <!-- SIDE BAR -->
+          
           <aside class="sidebar">
 
             <div class="category">
@@ -554,6 +559,7 @@
             </div>
 
           </aside>
+
         </div>
 
       </section>
@@ -579,13 +585,23 @@
       </div>
 
       <div class="news-letter" data-aos="flip-up" data-aos-delay="200">
+
         <h2>News Letter</h2>
 
         <p>Stay Updated with our latest</p>
 
-        <div class="form-element">
-          <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
-        </div>
+        <!-- <div class="form-element"> -->
+          <form id="my-form" action="https://formspree.io/f/xdoyawwp" method="POST">
+
+            <h2>Email </h2>
+            <input type="email"  name="email" class="input-element" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+            <label>Message:</label>
+            <input type="text" name="message" />
+            <button id="my-form-button">Submit</button>
+            <p id="my-form-status"></p>
+          </form>
+          <!-- <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span> -->
+        <!-- </div> -->
       </div>
 
       <div class="instagram" data-aos="flip-left" data-aos-delay="200">

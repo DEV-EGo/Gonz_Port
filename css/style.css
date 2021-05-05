@@ -91,7 +91,7 @@ p{
 
 /* --------Site Title---------- */
 main .site-title {
-    background: url('https://media.giphy.com/media/f74WQIhbzBKAusL2v1/giphy.gif');
+    background: url('./circuitboard.jpeg');
     background-size: cover;
     height: 90vh;
     width: 100%;
@@ -470,7 +470,8 @@ footer.footer .container h2{
     color: var(--white);
 }
 
-footer.footer .news-letter .form-element{
+footer.footer .news-letter .form-element #label{
+    color: white;
     background: black;
     display: inline-block;
 }
