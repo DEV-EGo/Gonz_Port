@@ -509,13 +509,26 @@
 
             <div class="newsletter"  data-aos="fade-up" data-aos-delay="300">
 
-              <h2>Newsletter</h2>
+              <h2>Contact</h2>
 
               <div class="form-element">
 
-                <input type="text" class="input-element" placeholder="Email">
 
-                <button class="btn form-btn">Subscribe</button>
+
+                <form id="my-form" action="https://formspree.io/f/xdoyawwp" method="POST">
+                  <label>Email:</label>
+                  <input type="email" name="email" class="input-element"/>
+                  <label>Message:</label>
+                  <input type="text" name="message" />
+                  <button id="my-form-button">Submit</button>
+                  <p id="my-form-status"></p>
+                </form>
+
+
+
+                <!-- <input type="text" class="input-element" placeholder="Email">
+
+                <button class="btn form-btn">Subscribe</button> -->
 
               </div>
 
@@ -557,7 +570,7 @@
 
    <div class="container">
 
-      <div class="about-us">
+      <div class="about-us" data-aos="fade-right" data-aos-delay="200">
         <h2>About us </h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Vero odio dolorum unde porro maiores doloribus officia, 
@@ -565,7 +578,7 @@
         </p>
       </div>
 
-      <div class="news-letter">
+      <div class="news-letter" data-aos="flip-up" data-aos-delay="200">
         <h2>News Letter</h2>
 
         <p>Stay Updated with our latest</p>
@@ -575,7 +588,7 @@
         </div>
       </div>
 
-      <div class="instagram">
+      <div class="instagram" data-aos="flip-left" data-aos-delay="200">
         <h2>Instagram</h2>
         <div class="flex-row">
           <img src="./assets/instagram/thumb-card3.png" alt="insta1">
@@ -593,7 +606,7 @@
         </div>
       </div>
 
-      <div class="follow">
+      <div class="follow" data-aos="flip-left" data-aos-delay="200">
         <h2>Follow Us</h2>
         <p>Let us be social</p>
         <div>
