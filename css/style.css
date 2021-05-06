@@ -30,7 +30,7 @@ html, body {
 /* --------Global Class---------- */
 a{
     text-decoration: none;
-    color: var(--text-gray);
+    color: var(--white)
 }
 
 .flex-row{
