@@ -30,7 +30,7 @@ html, body {
 /* --------Global Class---------- */
 a{
     text-decoration: none;
-    color: var(--white)
+    color: black;
 }
 
 .flex-row{
@@ -52,6 +52,7 @@ h1 {
 
 h2{
     font-family: var(--Roboto);
+    color: var(--white);
 }
 
 h3 {
@@ -331,7 +332,7 @@ main .post-content .post-title a{
 /* -----*---side- bar----*----- */
 
 /* --------navbar---------- */
-.nav{
+/* .nav{
     background: white;
     padding: 0 2rem;
     height: 0rem;
@@ -412,7 +413,7 @@ main .post-content .post-title a{
 .nav .social i:hover{
 color: #a1c4cf;
 
-}
+} */
 /* ----x----navbar----x---- */
 
 /* email */
