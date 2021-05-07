@@ -237,7 +237,7 @@ main .post-content .post-title a{
     background: skyblue;
 }
 
-.site-content .pagination{
+/* .site-content .pagination{
     justify-content: center;
     color: var(--text-gray);
     margin: 4rem 0;
@@ -253,7 +253,7 @@ main .post-content .post-title a{
 .site-content .pagination .pages{
     background-color: var(--text-gray);
     color: var(--white);
-}
+} */
 /* ---x-----site content------x---- */
 
 /* --------side bar--------- */
