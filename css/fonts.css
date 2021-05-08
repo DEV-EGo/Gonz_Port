@@ -15,3 +15,8 @@ src: url(../font/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
 src: url(../font/Zen_Dots/ZenDots-Regular.ttf);
 }
 
+/* font - family */
+@font-face {
+    font-family: 'Orbitron';;
+src: url(../font/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
