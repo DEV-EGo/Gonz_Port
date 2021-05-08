@@ -52,7 +52,14 @@ h1 {
 
 h2{
     font-family: var(--Roboto);
-    color: var(--white);
+    color: black;
+
+}
+
+#project {
+    text-align: center;
+    margin: 5rem 0px 5rem 0px;
+    font-size: 5rem;
 }
 
 h3 {
