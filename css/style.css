@@ -112,6 +112,7 @@ main .site-title {
     width: 100%;
     display: flex;
     justify-content: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 
 main .site-title .site-background{
@@ -466,7 +467,7 @@ background-attachment: fixed;
 
 footer.footer{
     height: 100%;
-    background: var(--bg-color);
+    background: #21262938;
     position: relative;
 }
 
