@@ -103,6 +103,7 @@ p{
 /* --------Site Title---------- */
 main{
     background: whitesmoke;
+    
 }
 
 main .site-title {
@@ -317,8 +318,8 @@ main .post-content .post-title a{
     padding: .5rem 2rem;
 }
 
-.site-content .sidebar .input-element{
-    width: 80%;
+.site-content .sidebar{
+    width: 100%;
     height: 1.9rem;
     padding: .3rem .5rem;
     font-family: var(--Josefin);
@@ -432,6 +433,7 @@ color: #a1c4cf;
 /* ----x----navbar----x---- */
 
 /* email */
+
 .form-element .my-form
 {
 height: 100vh;
@@ -446,6 +448,7 @@ color: rgb(12, 12, 12);
 background-attachment: fixed;
 
 }
+
 
 .form-element, .my-form
 {
@@ -462,6 +465,13 @@ background-attachment: fixed;
 
 }
 
+/*  */
+#message{
+    align-items: center;
+    margin: 0 auto;
+
+}
+/*  */
 
 /*--------Footer---------- */
 
@@ -492,7 +502,7 @@ footer.footer .news-letter .form-element #label{
     display: inline-block;
 }
 
-footer.footer .news-letter .form-element input{
+footer.footer .news-letter .form-element{
     padding: .5rem .7rem;
     border: none;
     background: transparent;
