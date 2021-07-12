@@ -108,11 +108,6 @@ p{
 
 }
 
-/* --------jumbotron ------------ */
-.jumbotron{
-    background: url("./video-2.mp4");
-}
-
 /* --------Site Title---------- */
 main{
     background: whitesmoke;
@@ -120,7 +115,7 @@ main{
 }
 
 main .site-title {
-    background: url('/assets/video-2.mp4');
+    background-image: url('/assets/video-2.mp4');
     background-size: cover;
     height: 50vh;
     width: 100%;
