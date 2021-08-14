@@ -473,6 +473,11 @@ background-attachment: fixed;
 
 }
 
+.message-element{
+    height: 16rem;
+    padding: 11px;
+}
+
 .input-element{
     justify-content:center;
 }
